@@ -2,15 +2,15 @@
 layout: default
 title: Home
 ---
-<h2>Blog Posts</h2>
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <div class="entry">
+    <article class="post-card">
+      <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <div class="post-excerpt">
         {{ post.excerpt }}
       </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more-btn">Read More →</a>
     </article>
   {% endfor %}
 </div>

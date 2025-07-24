@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}">Blog</a>
+                <a href="{{ '/dashboard/' | relative_url }}">Dashboard</a>
+            </nav>
+        </header>
+        <main class="site-content">
+            {{ content }}
+        </main>
+        <footer class="site-footer">
+            <p>&copy; 2025 | Built by WebDevAutomator</p>
+        </footer>
+    </div>
+</body>
+</html>
