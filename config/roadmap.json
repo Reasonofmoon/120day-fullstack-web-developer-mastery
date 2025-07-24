@@ -1,0 +1,2442 @@
+{
+  "curriculum": {
+    "phases": {
+      "foundation": {
+        "name": "웹 개발 기초 (1-30일)",
+        "duration": 30,
+        "topics": [
+          "How The Web Works",
+          "HTML5 Semantic HTML Accessibility",
+          "CSS3 Essentials",
+          "Flexbox & Layout",
+          "CSS Animations",
+          "Responsive Design",
+          "CSS Frameworks",
+          "Bootstrap 4 & 5"
+        ]
+      },
+      "javascript_mastery": {
+        "name": "JavaScript 완전정복 (31-60일)",
+        "duration": 30,
+        "topics": [
+          "JavaScript Basics",
+          "All Modern JS Syntax",
+          "DOM Manipulation",
+          "Asynchronous JavaScript",
+          "AJAX & JSON",
+          "Working with API's"
+        ]
+      },
+      "backend_development": {
+        "name": "백엔드 개발 (61-90일)",
+        "duration": 30,
+        "topics": [
+          "Using the Terminal",
+          "Unix Commands",
+          "NodeJS & NPM",
+          "Express Web Frameworks",
+          "Templating",
+          "RESTful API's",
+          "Databases",
+          "Mongo DB"
+        ]
+      },
+      "advanced_fullstack": {
+        "name": "고급 풀스택 (91-120일)",
+        "duration": 30,
+        "topics": [
+          "Developer Mindset",
+          "Security",
+          "Deploying",
+          "Mongo Cloud Atlas",
+          "Mongoose Schema Design",
+          "Authentication",
+          "Authorization",
+          "Cookies & Sessions",
+          "Image Upload",
+          "Geocoding & Maps"
+        ]
+      }
+    }
+  },
+  "daily_missions": [
+    {
+      "day": 1,
+      "phase": "foundation",
+      "topic": "How The Web Works",
+      "title": "Day 1: 웹의 작동 원리 이해하기",
+      "objectives": [
+        "How The Web Works 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "How The Web Works 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 2,
+      "phase": "foundation",
+      "topic": "How The Web Works",
+      "title": "Day 2: How The Web Works 학습하기",
+      "objectives": [
+        "How The Web Works 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "How The Web Works 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 3,
+      "phase": "foundation",
+      "topic": "How The Web Works",
+      "title": "Day 3: How The Web Works 학습하기",
+      "objectives": [
+        "How The Web Works 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "How The Web Works 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 4,
+      "phase": "foundation",
+      "topic": "HTML5 Semantic HTML Accessibility",
+      "title": "Day 4: HTML5 기본 구조 및 시맨틱 태그",
+      "objectives": [
+        "HTML5 Semantic HTML Accessibility 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "HTML5 Semantic HTML Accessibility 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 5,
+      "phase": "foundation",
+      "topic": "HTML5 Semantic HTML Accessibility",
+      "title": "Day 5: HTML5 Semantic HTML Accessibility 학습하기",
+      "objectives": [
+        "HTML5 Semantic HTML Accessibility 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "HTML5 Semantic HTML Accessibility 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 6,
+      "phase": "foundation",
+      "topic": "HTML5 Semantic HTML Accessibility",
+      "title": "Day 6: HTML5 Semantic HTML Accessibility 학습하기",
+      "objectives": [
+        "HTML5 Semantic HTML Accessibility 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "HTML5 Semantic HTML Accessibility 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 7,
+      "phase": "foundation",
+      "topic": "CSS3 Essentials",
+      "title": "Day 7: CSS3 Essentials 학습하기",
+      "objectives": [
+        "CSS3 Essentials 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "CSS3 Essentials 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 8,
+      "phase": "foundation",
+      "topic": "CSS3 Essentials",
+      "title": "Day 8: CSS3 Essentials 학습하기",
+      "objectives": [
+        "CSS3 Essentials 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "CSS3 Essentials 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 9,
+      "phase": "foundation",
+      "topic": "CSS3 Essentials",
+      "title": "Day 9: CSS3 Essentials 학습하기",
+      "objectives": [
+        "CSS3 Essentials 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "CSS3 Essentials 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 10,
+      "phase": "foundation",
+      "topic": "Flexbox & Layout",
+      "title": "Day 10: Flexbox & Layout 학습하기",
+      "objectives": [
+        "Flexbox & Layout 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Flexbox & Layout 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 11,
+      "phase": "foundation",
+      "topic": "Flexbox & Layout",
+      "title": "Day 11: Flexbox & Layout 학습하기",
+      "objectives": [
+        "Flexbox & Layout 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Flexbox & Layout 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 12,
+      "phase": "foundation",
+      "topic": "Flexbox & Layout",
+      "title": "Day 12: Flexbox & Layout 학습하기",
+      "objectives": [
+        "Flexbox & Layout 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Flexbox & Layout 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 13,
+      "phase": "foundation",
+      "topic": "CSS Animations",
+      "title": "Day 13: CSS Animations 학습하기",
+      "objectives": [
+        "CSS Animations 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "CSS Animations 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 14,
+      "phase": "foundation",
+      "topic": "CSS Animations",
+      "title": "Day 14: CSS Animations 학습하기",
+      "objectives": [
+        "CSS Animations 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "CSS Animations 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 15,
+      "phase": "foundation",
+      "topic": "CSS Animations",
+      "title": "Day 15: CSS Animations 학습하기",
+      "objectives": [
+        "CSS Animations 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "CSS Animations 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 16,
+      "phase": "foundation",
+      "topic": "Responsive Design",
+      "title": "Day 16: Responsive Design 학습하기",
+      "objectives": [
+        "Responsive Design 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Responsive Design 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 17,
+      "phase": "foundation",
+      "topic": "Responsive Design",
+      "title": "Day 17: Responsive Design 학습하기",
+      "objectives": [
+        "Responsive Design 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Responsive Design 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 18,
+      "phase": "foundation",
+      "topic": "Responsive Design",
+      "title": "Day 18: Responsive Design 학습하기",
+      "objectives": [
+        "Responsive Design 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Responsive Design 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 19,
+      "phase": "foundation",
+      "topic": "CSS Frameworks",
+      "title": "Day 19: CSS Frameworks 학습하기",
+      "objectives": [
+        "CSS Frameworks 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "CSS Frameworks 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 20,
+      "phase": "foundation",
+      "topic": "CSS Frameworks",
+      "title": "Day 20: CSS Frameworks 학습하기",
+      "objectives": [
+        "CSS Frameworks 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "CSS Frameworks 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 21,
+      "phase": "foundation",
+      "topic": "CSS Frameworks",
+      "title": "Day 21: CSS Frameworks 학습하기",
+      "objectives": [
+        "CSS Frameworks 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "CSS Frameworks 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "static-website"
+    },
+    {
+      "day": 22,
+      "phase": "foundation",
+      "topic": "Bootstrap 4 & 5",
+      "title": "Day 22: Bootstrap 4 & 5 학습하기",
+      "objectives": [
+        "Bootstrap 4 & 5 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Bootstrap 4 & 5 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 23,
+      "phase": "foundation",
+      "topic": "Bootstrap 4 & 5",
+      "title": "Day 23: Bootstrap 4 & 5 학습하기",
+      "objectives": [
+        "Bootstrap 4 & 5 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Bootstrap 4 & 5 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 24,
+      "phase": "foundation",
+      "topic": "Bootstrap 4 & 5",
+      "title": "Day 24: Bootstrap 4 & 5 학습하기",
+      "objectives": [
+        "Bootstrap 4 & 5 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Bootstrap 4 & 5 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 25,
+      "phase": "javascript_mastery",
+      "topic": "JavaScript Basics",
+      "title": "Day 25: 변수, 데이터 타입, 연산자",
+      "objectives": [
+        "JavaScript Basics 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "JavaScript Basics 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "interactive-frontend"
+    },
+    {
+      "day": 26,
+      "phase": "javascript_mastery",
+      "topic": "JavaScript Basics",
+      "title": "Day 26: JavaScript Basics 학습하기",
+      "objectives": [
+        "JavaScript Basics 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "JavaScript Basics 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "interactive-frontend"
+    },
+    {
+      "day": 27,
+      "phase": "javascript_mastery",
+      "topic": "JavaScript Basics",
+      "title": "Day 27: JavaScript Basics 학습하기",
+      "objectives": [
+        "JavaScript Basics 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "JavaScript Basics 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "interactive-frontend"
+    },
+    {
+      "day": 28,
+      "phase": "javascript_mastery",
+      "topic": "JavaScript Basics",
+      "title": "Day 28: JavaScript Basics 학습하기",
+      "objectives": [
+        "JavaScript Basics 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "JavaScript Basics 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "interactive-frontend"
+    },
+    {
+      "day": 29,
+      "phase": "javascript_mastery",
+      "topic": "JavaScript Basics",
+      "title": "Day 29: JavaScript Basics 학습하기",
+      "objectives": [
+        "JavaScript Basics 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "JavaScript Basics 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "interactive-frontend"
+    },
+    {
+      "day": 30,
+      "phase": "javascript_mastery",
+      "topic": "All Modern JS Syntax",
+      "title": "Day 30: All Modern JS Syntax 학습하기",
+      "objectives": [
+        "All Modern JS Syntax 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "All Modern JS Syntax 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "beginner",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 31,
+      "phase": "javascript_mastery",
+      "topic": "All Modern JS Syntax",
+      "title": "Day 31: All Modern JS Syntax 학습하기",
+      "objectives": [
+        "All Modern JS Syntax 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "All Modern JS Syntax 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 32,
+      "phase": "javascript_mastery",
+      "topic": "All Modern JS Syntax",
+      "title": "Day 32: All Modern JS Syntax 학습하기",
+      "objectives": [
+        "All Modern JS Syntax 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "All Modern JS Syntax 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 33,
+      "phase": "javascript_mastery",
+      "topic": "All Modern JS Syntax",
+      "title": "Day 33: All Modern JS Syntax 학습하기",
+      "objectives": [
+        "All Modern JS Syntax 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "All Modern JS Syntax 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 34,
+      "phase": "javascript_mastery",
+      "topic": "All Modern JS Syntax",
+      "title": "Day 34: All Modern JS Syntax 학습하기",
+      "objectives": [
+        "All Modern JS Syntax 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "All Modern JS Syntax 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 35,
+      "phase": "javascript_mastery",
+      "topic": "DOM Manipulation",
+      "title": "Day 35: DOM Manipulation 학습하기",
+      "objectives": [
+        "DOM Manipulation 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "DOM Manipulation 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 36,
+      "phase": "javascript_mastery",
+      "topic": "DOM Manipulation",
+      "title": "Day 36: DOM Manipulation 학습하기",
+      "objectives": [
+        "DOM Manipulation 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "DOM Manipulation 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 37,
+      "phase": "javascript_mastery",
+      "topic": "DOM Manipulation",
+      "title": "Day 37: DOM Manipulation 학습하기",
+      "objectives": [
+        "DOM Manipulation 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "DOM Manipulation 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 38,
+      "phase": "javascript_mastery",
+      "topic": "DOM Manipulation",
+      "title": "Day 38: DOM Manipulation 학습하기",
+      "objectives": [
+        "DOM Manipulation 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "DOM Manipulation 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 39,
+      "phase": "javascript_mastery",
+      "topic": "DOM Manipulation",
+      "title": "Day 39: DOM Manipulation 학습하기",
+      "objectives": [
+        "DOM Manipulation 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "DOM Manipulation 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 40,
+      "phase": "javascript_mastery",
+      "topic": "Asynchronous JavaScript",
+      "title": "Day 40: Asynchronous JavaScript 학습하기",
+      "objectives": [
+        "Asynchronous JavaScript 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Asynchronous JavaScript 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "interactive-frontend"
+    },
+    {
+      "day": 41,
+      "phase": "javascript_mastery",
+      "topic": "Asynchronous JavaScript",
+      "title": "Day 41: Asynchronous JavaScript 학습하기",
+      "objectives": [
+        "Asynchronous JavaScript 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Asynchronous JavaScript 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "interactive-frontend"
+    },
+    {
+      "day": 42,
+      "phase": "javascript_mastery",
+      "topic": "Asynchronous JavaScript",
+      "title": "Day 42: Asynchronous JavaScript 학습하기",
+      "objectives": [
+        "Asynchronous JavaScript 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Asynchronous JavaScript 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "interactive-frontend"
+    },
+    {
+      "day": 43,
+      "phase": "javascript_mastery",
+      "topic": "Asynchronous JavaScript",
+      "title": "Day 43: Asynchronous JavaScript 학습하기",
+      "objectives": [
+        "Asynchronous JavaScript 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Asynchronous JavaScript 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "interactive-frontend"
+    },
+    {
+      "day": 44,
+      "phase": "javascript_mastery",
+      "topic": "Asynchronous JavaScript",
+      "title": "Day 44: Asynchronous JavaScript 학습하기",
+      "objectives": [
+        "Asynchronous JavaScript 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Asynchronous JavaScript 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "interactive-frontend"
+    },
+    {
+      "day": 45,
+      "phase": "javascript_mastery",
+      "topic": "AJAX & JSON",
+      "title": "Day 45: AJAX & JSON 학습하기",
+      "objectives": [
+        "AJAX & JSON 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "AJAX & JSON 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 46,
+      "phase": "javascript_mastery",
+      "topic": "AJAX & JSON",
+      "title": "Day 46: AJAX & JSON 학습하기",
+      "objectives": [
+        "AJAX & JSON 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "AJAX & JSON 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 47,
+      "phase": "javascript_mastery",
+      "topic": "AJAX & JSON",
+      "title": "Day 47: AJAX & JSON 학습하기",
+      "objectives": [
+        "AJAX & JSON 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "AJAX & JSON 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 48,
+      "phase": "javascript_mastery",
+      "topic": "AJAX & JSON",
+      "title": "Day 48: AJAX & JSON 학습하기",
+      "objectives": [
+        "AJAX & JSON 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "AJAX & JSON 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 49,
+      "phase": "javascript_mastery",
+      "topic": "AJAX & JSON",
+      "title": "Day 49: AJAX & JSON 학습하기",
+      "objectives": [
+        "AJAX & JSON 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "AJAX & JSON 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 50,
+      "phase": "javascript_mastery",
+      "topic": "Working with API's",
+      "title": "Day 50: Working with API's 학습하기",
+      "objectives": [
+        "Working with API's 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Working with API's 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 51,
+      "phase": "javascript_mastery",
+      "topic": "Working with API's",
+      "title": "Day 51: Working with API's 학습하기",
+      "objectives": [
+        "Working with API's 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Working with API's 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 52,
+      "phase": "javascript_mastery",
+      "topic": "Working with API's",
+      "title": "Day 52: Working with API's 학습하기",
+      "objectives": [
+        "Working with API's 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Working with API's 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 53,
+      "phase": "javascript_mastery",
+      "topic": "Working with API's",
+      "title": "Day 53: Working with API's 학습하기",
+      "objectives": [
+        "Working with API's 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Working with API's 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 54,
+      "phase": "javascript_mastery",
+      "topic": "Working with API's",
+      "title": "Day 54: Working with API's 학습하기",
+      "objectives": [
+        "Working with API's 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Working with API's 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 55,
+      "phase": "backend_development",
+      "topic": "Using the Terminal",
+      "title": "Day 55: Using the Terminal 학습하기",
+      "objectives": [
+        "Using the Terminal 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Using the Terminal 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 56,
+      "phase": "backend_development",
+      "topic": "Using the Terminal",
+      "title": "Day 56: Using the Terminal 학습하기",
+      "objectives": [
+        "Using the Terminal 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Using the Terminal 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 57,
+      "phase": "backend_development",
+      "topic": "Using the Terminal",
+      "title": "Day 57: Using the Terminal 학습하기",
+      "objectives": [
+        "Using the Terminal 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Using the Terminal 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 58,
+      "phase": "backend_development",
+      "topic": "Unix Commands",
+      "title": "Day 58: Unix Commands 학습하기",
+      "objectives": [
+        "Unix Commands 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Unix Commands 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 59,
+      "phase": "backend_development",
+      "topic": "Unix Commands",
+      "title": "Day 59: Unix Commands 학습하기",
+      "objectives": [
+        "Unix Commands 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Unix Commands 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 60,
+      "phase": "backend_development",
+      "topic": "Unix Commands",
+      "title": "Day 60: Unix Commands 학습하기",
+      "objectives": [
+        "Unix Commands 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Unix Commands 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "intermediate",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 61,
+      "phase": "backend_development",
+      "topic": "NodeJS & NPM",
+      "title": "Day 61: NodeJS & NPM 학습하기",
+      "objectives": [
+        "NodeJS & NPM 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "NodeJS & NPM 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 62,
+      "phase": "backend_development",
+      "topic": "NodeJS & NPM",
+      "title": "Day 62: NodeJS & NPM 학습하기",
+      "objectives": [
+        "NodeJS & NPM 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "NodeJS & NPM 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 63,
+      "phase": "backend_development",
+      "topic": "NodeJS & NPM",
+      "title": "Day 63: NodeJS & NPM 학습하기",
+      "objectives": [
+        "NodeJS & NPM 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "NodeJS & NPM 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 64,
+      "phase": "backend_development",
+      "topic": "Express Web Frameworks",
+      "title": "Day 64: Express Web Frameworks 학습하기",
+      "objectives": [
+        "Express Web Frameworks 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Express Web Frameworks 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 65,
+      "phase": "backend_development",
+      "topic": "Express Web Frameworks",
+      "title": "Day 65: Express Web Frameworks 학습하기",
+      "objectives": [
+        "Express Web Frameworks 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Express Web Frameworks 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 66,
+      "phase": "backend_development",
+      "topic": "Express Web Frameworks",
+      "title": "Day 66: Express Web Frameworks 학습하기",
+      "objectives": [
+        "Express Web Frameworks 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Express Web Frameworks 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 67,
+      "phase": "backend_development",
+      "topic": "Templating",
+      "title": "Day 67: Templating 학습하기",
+      "objectives": [
+        "Templating 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Templating 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 68,
+      "phase": "backend_development",
+      "topic": "Templating",
+      "title": "Day 68: Templating 학습하기",
+      "objectives": [
+        "Templating 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Templating 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 69,
+      "phase": "backend_development",
+      "topic": "Templating",
+      "title": "Day 69: Templating 학습하기",
+      "objectives": [
+        "Templating 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Templating 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 70,
+      "phase": "backend_development",
+      "topic": "RESTful API's",
+      "title": "Day 70: RESTful API's 학습하기",
+      "objectives": [
+        "RESTful API's 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "RESTful API's 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 71,
+      "phase": "backend_development",
+      "topic": "RESTful API's",
+      "title": "Day 71: RESTful API's 학습하기",
+      "objectives": [
+        "RESTful API's 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "RESTful API's 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 72,
+      "phase": "backend_development",
+      "topic": "RESTful API's",
+      "title": "Day 72: RESTful API's 학습하기",
+      "objectives": [
+        "RESTful API's 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "RESTful API's 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 73,
+      "phase": "backend_development",
+      "topic": "Databases",
+      "title": "Day 73: Databases 학습하기",
+      "objectives": [
+        "Databases 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Databases 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 74,
+      "phase": "backend_development",
+      "topic": "Databases",
+      "title": "Day 74: Databases 학습하기",
+      "objectives": [
+        "Databases 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Databases 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 75,
+      "phase": "backend_development",
+      "topic": "Databases",
+      "title": "Day 75: Databases 학습하기",
+      "objectives": [
+        "Databases 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Databases 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 76,
+      "phase": "backend_development",
+      "topic": "Mongo DB",
+      "title": "Day 76: Mongo DB 학습하기",
+      "objectives": [
+        "Mongo DB 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Mongo DB 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 77,
+      "phase": "backend_development",
+      "topic": "Mongo DB",
+      "title": "Day 77: Mongo DB 학습하기",
+      "objectives": [
+        "Mongo DB 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Mongo DB 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 78,
+      "phase": "backend_development",
+      "topic": "Mongo DB",
+      "title": "Day 78: Mongo DB 학습하기",
+      "objectives": [
+        "Mongo DB 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Mongo DB 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 79,
+      "phase": "advanced_fullstack",
+      "topic": "Developer Mindset",
+      "title": "Day 79: Developer Mindset 학습하기",
+      "objectives": [
+        "Developer Mindset 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Developer Mindset 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 80,
+      "phase": "advanced_fullstack",
+      "topic": "Developer Mindset",
+      "title": "Day 80: Developer Mindset 학습하기",
+      "objectives": [
+        "Developer Mindset 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Developer Mindset 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 81,
+      "phase": "advanced_fullstack",
+      "topic": "Developer Mindset",
+      "title": "Day 81: Developer Mindset 학습하기",
+      "objectives": [
+        "Developer Mindset 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Developer Mindset 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 82,
+      "phase": "advanced_fullstack",
+      "topic": "Security",
+      "title": "Day 82: Security 학습하기",
+      "objectives": [
+        "Security 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Security 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 83,
+      "phase": "advanced_fullstack",
+      "topic": "Security",
+      "title": "Day 83: Security 학습하기",
+      "objectives": [
+        "Security 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Security 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 84,
+      "phase": "advanced_fullstack",
+      "topic": "Security",
+      "title": "Day 84: Security 학습하기",
+      "objectives": [
+        "Security 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Security 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 85,
+      "phase": "advanced_fullstack",
+      "topic": "Deploying",
+      "title": "Day 85: Deploying 학습하기",
+      "objectives": [
+        "Deploying 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Deploying 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 86,
+      "phase": "advanced_fullstack",
+      "topic": "Deploying",
+      "title": "Day 86: Deploying 학습하기",
+      "objectives": [
+        "Deploying 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Deploying 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 87,
+      "phase": "advanced_fullstack",
+      "topic": "Deploying",
+      "title": "Day 87: Deploying 학습하기",
+      "objectives": [
+        "Deploying 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Deploying 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 88,
+      "phase": "advanced_fullstack",
+      "topic": "Mongo Cloud Atlas",
+      "title": "Day 88: Mongo Cloud Atlas 학습하기",
+      "objectives": [
+        "Mongo Cloud Atlas 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Mongo Cloud Atlas 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 89,
+      "phase": "advanced_fullstack",
+      "topic": "Mongo Cloud Atlas",
+      "title": "Day 89: Mongo Cloud Atlas 학습하기",
+      "objectives": [
+        "Mongo Cloud Atlas 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Mongo Cloud Atlas 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 90,
+      "phase": "advanced_fullstack",
+      "topic": "Mongo Cloud Atlas",
+      "title": "Day 90: Mongo Cloud Atlas 학습하기",
+      "objectives": [
+        "Mongo Cloud Atlas 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Mongo Cloud Atlas 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 91,
+      "phase": "advanced_fullstack",
+      "topic": "Mongoose Schema Design",
+      "title": "Day 91: Mongoose Schema Design 학습하기",
+      "objectives": [
+        "Mongoose Schema Design 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Mongoose Schema Design 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 92,
+      "phase": "advanced_fullstack",
+      "topic": "Mongoose Schema Design",
+      "title": "Day 92: Mongoose Schema Design 학습하기",
+      "objectives": [
+        "Mongoose Schema Design 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Mongoose Schema Design 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 93,
+      "phase": "advanced_fullstack",
+      "topic": "Mongoose Schema Design",
+      "title": "Day 93: Mongoose Schema Design 학습하기",
+      "objectives": [
+        "Mongoose Schema Design 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Mongoose Schema Design 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 94,
+      "phase": "advanced_fullstack",
+      "topic": "Authentication",
+      "title": "Day 94: Authentication 학습하기",
+      "objectives": [
+        "Authentication 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Authentication 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 95,
+      "phase": "advanced_fullstack",
+      "topic": "Authentication",
+      "title": "Day 95: Authentication 학습하기",
+      "objectives": [
+        "Authentication 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Authentication 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 96,
+      "phase": "advanced_fullstack",
+      "topic": "Authentication",
+      "title": "Day 96: Authentication 학습하기",
+      "objectives": [
+        "Authentication 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Authentication 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 97,
+      "phase": "advanced_fullstack",
+      "topic": "Authorization",
+      "title": "Day 97: Authorization 학습하기",
+      "objectives": [
+        "Authorization 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Authorization 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 98,
+      "phase": "advanced_fullstack",
+      "topic": "Authorization",
+      "title": "Day 98: Authorization 학습하기",
+      "objectives": [
+        "Authorization 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Authorization 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 99,
+      "phase": "advanced_fullstack",
+      "topic": "Authorization",
+      "title": "Day 99: Authorization 학습하기",
+      "objectives": [
+        "Authorization 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Authorization 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 100,
+      "phase": "advanced_fullstack",
+      "topic": "Cookies & Sessions",
+      "title": "Day 100: Cookies & Sessions 학습하기",
+      "objectives": [
+        "Cookies & Sessions 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Cookies & Sessions 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 101,
+      "phase": "advanced_fullstack",
+      "topic": "Cookies & Sessions",
+      "title": "Day 101: Cookies & Sessions 학습하기",
+      "objectives": [
+        "Cookies & Sessions 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Cookies & Sessions 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 102,
+      "phase": "advanced_fullstack",
+      "topic": "Cookies & Sessions",
+      "title": "Day 102: Cookies & Sessions 학습하기",
+      "objectives": [
+        "Cookies & Sessions 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Cookies & Sessions 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 103,
+      "phase": "advanced_fullstack",
+      "topic": "Image Upload",
+      "title": "Day 103: Image Upload 학습하기",
+      "objectives": [
+        "Image Upload 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Image Upload 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 104,
+      "phase": "advanced_fullstack",
+      "topic": "Image Upload",
+      "title": "Day 104: Image Upload 학습하기",
+      "objectives": [
+        "Image Upload 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Image Upload 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 105,
+      "phase": "advanced_fullstack",
+      "topic": "Image Upload",
+      "title": "Day 105: Image Upload 학습하기",
+      "objectives": [
+        "Image Upload 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Image Upload 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 106,
+      "phase": "advanced_fullstack",
+      "topic": "Geocoding & Maps",
+      "title": "Day 106: Geocoding & Maps 학습하기",
+      "objectives": [
+        "Geocoding & Maps 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Geocoding & Maps 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 107,
+      "phase": "advanced_fullstack",
+      "topic": "Geocoding & Maps",
+      "title": "Day 107: Geocoding & Maps 학습하기",
+      "objectives": [
+        "Geocoding & Maps 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Geocoding & Maps 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    },
+    {
+      "day": 108,
+      "phase": "advanced_fullstack",
+      "topic": "Geocoding & Maps",
+      "title": "Day 108: Geocoding & Maps 학습하기",
+      "objectives": [
+        "Geocoding & Maps 핵심 개념 이해",
+        "실습 프로젝트 완성"
+      ],
+      "deliverables": [
+        "Geocoding & Maps 실습 프로젝트 완성",
+        "코드 리뷰 완료"
+      ],
+      "estimated_time": 60,
+      "difficulty": "advanced",
+      "resources": [
+        "MDN Web Docs",
+        "freeCodeCamp",
+        "Google Search"
+      ],
+      "project_type": "backend-server"
+    }
+  ],
+  "total_days": 108,
+  "mermaid_diagram": "```mermaid\ngraph TD\n    Start --> P1[Foundation]; P1 --> P2[JavaScript]; P2 --> P3[Backend]; P3 --> P4[Advanced]; P4 --> End\n```"
+}

@@ -1,0 +1,8 @@
+
+theme: jekyll-theme-minimal
+title: 120-Day Web Dev Mastery
+description: My 120-day journey to becoming a full-stack web developer.
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
