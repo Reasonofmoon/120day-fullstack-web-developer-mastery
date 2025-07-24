@@ -1,4 +1,12 @@
 {
   "name": "120day-fullstack-web-developer-mastery",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "A 120-day journey to full-stack web developer mastery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
