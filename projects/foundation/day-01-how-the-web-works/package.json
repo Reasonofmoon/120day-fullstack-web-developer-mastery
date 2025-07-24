@@ -1,0 +1,12 @@
+{
+  "name": "day-01-how-the-web-works",
+  "version": "1.0.0",
+  "description": "Day 1: \uc6f9\uc758 \uc791\ub3d9 \uc6d0\ub9ac \uc774\ud574\ud558\uae30",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
