@@ -1,13 +1,16 @@
-
 const http = require('http');
 
 const hostname = '127.0.0.1';
 const port = 3000;
 
+// Pre-allocate the buffer to avoid creating it on every request.
+// This reduces CPU usage and GC overhead.
+const responseBody = Buffer.from('Hello, World!\n');
+
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, World!\n');
+  res.end(responseBody);
 });
 
 server.listen(port, hostname, () => {
