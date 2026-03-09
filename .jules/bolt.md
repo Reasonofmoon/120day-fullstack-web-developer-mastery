@@ -1,0 +1,3 @@
+## 2024-05-24 - [Optimize Node.js Raw HTTP Server]
+**Learning:** In raw Node.js HTTP servers, pre-allocating static responses as `Buffer` objects avoids repeated string encoding overhead. Also using `res.writeHead()` to send status and headers in a single operation is measurably faster than setting `res.statusCode` and `res.setHeader` individually.
+**Action:** When returning static content in a raw Node.js server, pre-allocate the response as a `Buffer` and explicitly calculate and set the `Content-Length` header (e.g., `responseBody.length`) to optimize client-side connection handling. Combine status code and header assignment using `res.writeHead()`.
