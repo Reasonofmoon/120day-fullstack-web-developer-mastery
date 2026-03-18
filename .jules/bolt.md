@@ -1,0 +1,3 @@
+## 2024-05-18 - [Raw Node.js HTTP Server Header and String Optimization]
+**Learning:** In raw Node.js HTTP servers (like `day-01-how-the-web-works`), setting `res.statusCode` and `res.setHeader` individually and responding with a plain string causes measurable string encoding overhead and inefficient connection handling.
+**Action:** Pre-allocate static responses as `Buffer` objects, calculate and explicitly set the `Content-Length` header (`responseBody.length`), and send headers in a single operation using `res.writeHead()`. Benchmarks indicate this can boost throughput from ~24k req/sec to ~28k req/sec.
