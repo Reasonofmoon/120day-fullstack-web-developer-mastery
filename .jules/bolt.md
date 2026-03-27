@@ -1,0 +1,3 @@
+## 2024-05-24 - Node.js Raw HTTP Server Bottlenecks
+**Learning:** In raw Node.js HTTP servers, returning static strings for every request and setting headers individually (`res.statusCode` + `res.setHeader`) introduces unnecessary overhead. Pre-allocating the response as a `Buffer`, combining header setting with `res.writeHead`, and explicitly specifying `Content-Length` significantly improves throughput (from ~26k to ~32.5k Req/Sec in benchmarking).
+**Action:** Always pre-allocate static responses as `Buffer` objects and use `res.writeHead` with an explicit `Content-Length` when optimizing raw Node.js HTTP servers to maximize connection handling efficiency.
