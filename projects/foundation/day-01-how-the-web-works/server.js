@@ -1,13 +1,19 @@
-
 const http = require('http');
 
 const hostname = '127.0.0.1';
 const port = 3000;
 
+// ⚡ Bolt: Pre-allocate static response as Buffer to avoid repeated string encoding overhead
+const responseBody = Buffer.from('Hello, World!\n');
+
 const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, World!\n');
+  // ⚡ Bolt: Use writeHead to send status and headers in a single operation
+  // ⚡ Bolt: Explicitly set Content-Length to optimize client-side connection handling
+  res.writeHead(200, {
+    'Content-Type': 'text/plain',
+    'Content-Length': responseBody.length
+  });
+  res.end(responseBody);
 });
 
 server.listen(port, hostname, () => {
