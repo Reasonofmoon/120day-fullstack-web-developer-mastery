@@ -12,13 +12,19 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('progress-bar').style.width = `${progress}%`;
 
             const grid = document.getElementById('roadmap-grid');
+            // ⚡ Bolt Performance Optimization:
+            // 💡 What: Used DocumentFragment to batch DOM insertions
+            // 🎯 Why: Appending each cell individually triggers 120 layout reflows/repaints.
+            // 📊 Impact: Reduces layout thrashing from O(n) to O(1) DOM insertions.
+            const fragment = document.createDocumentFragment();
             for (let i = 1; i <= TOTAL_DAYS; i++) {
                 const cell = document.createElement('div');
                 cell.className = 'day-cell';
                 cell.textContent = i;
                 if (i <= completedDays) cell.classList.add('completed');
                 if (i === completedDays + 1) cell.classList.add('current');
-                grid.appendChild(cell);
+                fragment.appendChild(cell);
             }
+            grid.appendChild(fragment);
         });
 });
