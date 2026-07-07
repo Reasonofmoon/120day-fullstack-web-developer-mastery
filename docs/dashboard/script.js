@@ -12,13 +12,16 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('progress-bar').style.width = `${progress}%`;
 
             const grid = document.getElementById('roadmap-grid');
+            // ⚡ Bolt: Batch DOM insertions using DocumentFragment to minimize reflows/repaints (Impact: 120 DOM insertions -> 1)
+            const fragment = document.createDocumentFragment();
             for (let i = 1; i <= TOTAL_DAYS; i++) {
                 const cell = document.createElement('div');
                 cell.className = 'day-cell';
                 cell.textContent = i;
                 if (i <= completedDays) cell.classList.add('completed');
                 if (i === completedDays + 1) cell.classList.add('current');
-                grid.appendChild(cell);
+                fragment.appendChild(cell);
             }
+            grid.appendChild(fragment);
         });
 });
